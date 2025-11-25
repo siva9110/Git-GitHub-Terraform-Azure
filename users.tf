@@ -18,3 +18,10 @@ resource "azuread_user" "user7" {
   password            = "ComplexPassword123!"
   force_password_change = true
 }
+
+resource "azuread_user" "user8" {
+  user_principal_name = "gituser8@76hpc3.onmicrosoft.com"
+  display_name        = "user8git"
+  password            = "ComplexPassword123!"
+  force_password_change = true
+}

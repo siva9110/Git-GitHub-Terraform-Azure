@@ -29,5 +29,15 @@ output "user_object_id_user7" {
   
 }
 
+output "user_principal_name_user8" {
+    value = azuread_user.user8.user_principal_name   
+}
+
+output "user_object_id_user8" {
+
+  value = azuread_user.user8.object_id
+  
+}
+
 
 
