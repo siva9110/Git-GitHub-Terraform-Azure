@@ -66,6 +66,8 @@ jobs:
       - uses: hashicorp/setup-terraform@v2
         with:
           terraform_version: latest
+      - name: Terraform init
+        run: terraform init
       - name: Terraform Plan
         run: terraform plan -out=tfplan
 
