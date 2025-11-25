@@ -13,6 +13,7 @@ resource "azuread_user" "Terraform-1" {
 }
 
 
+
 resource "azuread_user" "git" {
   user_principal_name = "Git@76hpc3.onmicrosoft.com"
   display_name        = "Git"

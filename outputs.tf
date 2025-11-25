@@ -8,6 +8,7 @@
   
  }
 
+
 output "user_principal_name_terraform" {
     value = azuread_user.Terraform-1.user_principal_name   
 }
