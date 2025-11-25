@@ -1,8 +1,3 @@
-terraform {
-  backend "local" {
-    path = "./terraform.tfstate"
-  }
-}
 resource "azuread_user" "Terraform" {
   user_principal_name = "Git-GitHub-Terraform-Azure@76hpc3.onmicrosoft.com"
   display_name        = "Git-GitHub-Terraform-Azure"
