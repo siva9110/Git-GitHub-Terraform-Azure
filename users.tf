@@ -25,3 +25,9 @@ resource "azuread_user" "user8" {
   password            = "ComplexPassword123!"
   force_password_change = true
 }
+
+
+resource "azuread_group" "devops_group" {
+  display_name     = "DevOps Team"
+  security_enabled = true
+}

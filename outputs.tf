@@ -40,4 +40,12 @@ output "user_object_id_user8" {
 }
 
 
+output "devops_group_id" {
+  description = "The Object ID of the DevOps group"
+  value       = azuread_group.devops_group.id
+}
 
+output "devops_group_display_name" {
+  description = "The display name of the DevOps group"
+  value       = azuread_group.devops_group.display_name
+}
