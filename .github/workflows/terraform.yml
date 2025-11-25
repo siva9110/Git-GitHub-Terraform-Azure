@@ -1,5 +1,5 @@
 
-name: Terraform-AzureAD-Deployment
+name: Terraform-Azure-Deployment
 
 on:
   push:
