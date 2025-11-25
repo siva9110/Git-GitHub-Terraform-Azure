@@ -1,9 +1,10 @@
+
 name: Terraform-Azure-Deployment
 
 on:
   push:
     branches:
-      - main 
+      - main
   workflow_dispatch:
 
 jobs:
@@ -24,14 +25,30 @@ jobs:
         with:
           terraform_version: latest
 
+      # Stage 1: Terraform Init
       - name: Terraform Init
         run: terraform init
 
+      # Stage 2: Terraform Fmt
+      - name: Terraform Format
+        run: terraform fmt -check
+
+      # Stage 3: Terraform Validate
       - name: Terraform Validate
         run: terraform validate
 
+      # Stage 4: Terraform Plan
       - name: Terraform Plan
         run: terraform plan -out=tfplan
 
+      # Stage 5: Terraform Apply
       - name: Terraform Apply
         run: terraform apply -auto-approve tfplan
+
+      # Stage 6: Show Outputs
+      - name: Terraform Output
+        run: terraform output
+
+      # Final Stage: Deployment Confirmation
+      - name: Deployment Status
+        run: echo "✅ Your Terraform code is deployed successfully!"
