@@ -1,3 +1,4 @@
+#fromusersbranch
 output "user_principal_name_user5" {
     value = azuread_user.user5.user_principal_name   
 }
