@@ -20,9 +20,9 @@ resource "azuread_user" "user7" {
 }
 
 
-resource "azuread_user" "usersiva" {
-  user_principal_name = "gitusersiva@76hpc3.onmicrosoft.com"
-  display_name        = "usersivagit"
+resource "azuread_user" "userhari" {
+  user_principal_name = "gituserhari@76hpc3.onmicrosoft.com"
+  display_name        = "userharigit"
   password            = "ComplexPassword123!"
   force_password_change = true
 }

@@ -28,11 +28,11 @@ output "user_object_id_user7" {
   value = azuread_user.user7.object_id
   
 }
-output "user_principal_name_usersiva" {
-    value = azuread_user.usersiva.user_principal_name   
+output "user_principal_name_userhari" {
+    value = azuread_user.userhari.user_principal_name   
 }
 
-output "user_object_id_usersiva" {
-  value = azuread_user.usersiva.object_id
+output "user_object_id_userhari" {
+  value = azuread_user.userhari.object_id
   
 }
