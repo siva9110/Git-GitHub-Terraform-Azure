@@ -30,8 +30,6 @@ output "user_object_id_user7" {
   value = azuread_user.user7.object_id
   
 }
-<<<<<<< HEAD
-=======
 
 output "user_principal_name_usersiva365" {
     value = azuread_user.usersiva365.user_principal_name   
@@ -45,4 +43,3 @@ output "user_object_id_usersiva365" {
 
 
 
->>>>>>> users
