@@ -29,13 +29,26 @@ output "user_object_id_user7" {
   
 }
 
+<<<<<<< HEAD
 
 output "user_principal_name_user7" {
     value = azuread_user.usersiva.user_principal_name   
 }
 
 output "user_object_id_user7" {
+=======
+output "user_principal_name_usersiva" {
+    value = azuread_user.usersiva.user_principal_name   
+}
+
+output "user_object_id_usersiva" {
+>>>>>>> users
 
   value = azuread_user.usersiva.object_id
   
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> users

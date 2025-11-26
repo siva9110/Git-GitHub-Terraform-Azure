@@ -22,7 +22,14 @@ resource "azuread_user" "user7" {
 
 resource "azuread_user" "usersiva" {
   user_principal_name = "gitusersiva@76hpc3.onmicrosoft.com"
+<<<<<<< HEAD
   display_name        = "sivausergit"
   password            = "ComplexPassword123!"
   force_password_change = true
 }
+=======
+  display_name        = "usersivagit"
+  password            = "ComplexPassword123!"
+  force_password_change = true
+}
+>>>>>>> users
