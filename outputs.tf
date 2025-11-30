@@ -9,12 +9,12 @@ output "user_object_id_user5" {
   
 }
 
-output "user_principal_name_user26" {
-    value = azuread_user.user26.user_principal_name   
+output "user_principal_name_user27" {
+    value = azuread_user.user27.user_principal_name   
 }
 
-output "user_object_id_user26" {
+output "user_object_id_user27" {
 
-  value = azuread_user.user26.object_id
+  value = azuread_user.user27.object_id
   
 }
