@@ -12,3 +12,6 @@ resource "azuread_user" "user27" {
   password            = "ComplexPassword123!"
   force_password_change = true
 }
+
+
+
