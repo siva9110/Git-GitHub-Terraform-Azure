@@ -5,13 +5,3 @@ resource "azuread_user" "user5" {
   force_password_change = true
 }
 
-
-resource "azuread_user" "user27" {
-  user_principal_name = "gituser27@76hpc3.onmicrosoft.com"
-  display_name        = "user27git"
-  password            = "ComplexPassword123!"
-  force_password_change = true
-}
-
-
-
